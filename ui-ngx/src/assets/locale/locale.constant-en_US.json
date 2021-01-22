@@ -1,7 +1,7 @@
 {
     "access": {
-        "unauthorized": "Unauthorized",
-        "unauthorized-access": "Unauthorized Access",
+        "unauthorized": "Không được phép",
+        "unauthorized-access": "Truy cập trái phép",
         "unauthorized-access-text": "You should sign in to have access to this resource!",
         "access-forbidden": "Access Forbidden",
         "access-forbidden-text": "You haven't access rights to this location!<br/>Try to sign in with different user if you still wish to gain access to this location.",
@@ -72,11 +72,11 @@
         "none": "None"
     },
     "admin": {
-        "general": "General",
-        "general-settings": "General Settings",
-        "outgoing-mail": "Mail Server",
+        "general": "Chung",
+        "general-settings": "Cài đặt chung",
+        "outgoing-mail": "Cài đặt Mail Server",
         "outgoing-mail-settings": "Outgoing Mail Server Settings",
-        "system-settings": "System Settings",
+        "system-settings": "Cài đặt hệ thống",
         "test-mail-sent": "Test mail was successfully sent!",
         "base-url": "Base URL",
         "base-url-required": "Base URL is required.",
@@ -565,7 +565,7 @@
     "customer": {
         "customer": "Customer",
         "customers": "Customers",
-        "management": "Customer management",
+        "management": "Quản lý khách hàng",
         "dashboard": "Customer Dashboard",
         "dashboards": "Customer Dashboards",
         "devices": "Customer Devices",
@@ -1689,7 +1689,7 @@
         "goto-help-page": "Go to help page"
     },
     "home": {
-        "home": "Home",
+        "home": "Trang chủ",
         "profile": "Profile",
         "logout": "Logout",
         "menu": "Menu",
@@ -1782,7 +1782,7 @@
         }
     },
     "login": {
-        "login": "Login",
+        "login": "Đăng nhập",
         "request-password-reset": "Request Password Reset",
         "reset-password": "Reset Password",
         "create-password": "Create Password",
@@ -1800,7 +1800,7 @@
         "email": "Email",
         "login-with": "Login with {{name}}",
         "or": "or",
-        "error": "Login error"
+        "error": "Đăng nhập thất bại"
     },
     "position": {
         "top": "Top",
@@ -1891,7 +1891,7 @@
         "select-rulechain": "Select rule chain",
         "no-rulechains-matching": "No rule chains matching '{{entity}}' were found.",
         "rulechain-required": "Rule chain is required",
-        "management": "Rules management",
+        "management": "Quản lý quy tắc",
         "debug-mode": "Debug mode",
         "search": "Search rule chains",
         "selected-rulechains": "{ count, plural, 1 {1 rule chain} other {# rule chains} } selected",
