@@ -1,7 +1,7 @@
 {
     "access": {
-        "unauthorized": "Không được phép",
-        "unauthorized-access": "Truy cập trái phép",
+        "unauthorized": "Unauthorized",
+        "unauthorized-access": "Unauthorized Access",
         "unauthorized-access-text": "You should sign in to have access to this resource!",
         "access-forbidden": "Access Forbidden",
         "access-forbidden-text": "You haven't access rights to this location!<br/>Try to sign in with different user if you still wish to gain access to this location.",
@@ -72,11 +72,11 @@
         "none": "None"
     },
     "admin": {
-        "general": "Chung",
-        "general-settings": "Cài đặt chung",
-        "outgoing-mail": "Cài đặt Mail Server",
+        "general": "General",
+        "general-settings": "General Settings",
+        "outgoing-mail": "Mail Server",
         "outgoing-mail-settings": "Outgoing Mail Server Settings",
-        "system-settings": "Cài đặt hệ thống",
+        "system-settings": "System Settings",
         "test-mail-sent": "Test mail was successfully sent!",
         "base-url": "Base URL",
         "base-url-required": "Base URL is required.",
@@ -565,7 +565,7 @@
     "customer": {
         "customer": "Customer",
         "customers": "Customers",
-        "management": "Quản lý khách hàng",
+        "management": "Customer management",
         "dashboard": "Customer Dashboard",
         "dashboards": "Customer Dashboards",
         "devices": "Customer Devices",
@@ -906,6 +906,7 @@
         "unable-delete-device-alias-title": "Unable to delete device alias",
         "unable-delete-device-alias-text": "Device alias '{{deviceAlias}}' can't be deleted as it used by the following widget(s):<br/>{{widgetsList}}",
         "is-gateway": "Is gateway",
+        "overwrite-activity-time": "Overwrite activity time for connected device",
         "public": "Public",
         "device-public": "Device is public",
         "select-device": "Select device",
@@ -1689,7 +1690,7 @@
         "goto-help-page": "Go to help page"
     },
     "home": {
-        "home": "Trang chủ",
+        "home": "Home",
         "profile": "Profile",
         "logout": "Logout",
         "menu": "Menu",
@@ -1721,6 +1722,7 @@
             "entity-field": "Entity field",
             "access-token": "Access token",
             "isgateway": "Is Gateway",
+            "activity-time-from-gateway-device": "Activity time from gateway device",
             "description": "Description"
         },
         "stepper-text":{
@@ -1782,7 +1784,7 @@
         }
     },
     "login": {
-        "login": "Đăng nhập",
+        "login": "Login",
         "request-password-reset": "Request Password Reset",
         "reset-password": "Reset Password",
         "create-password": "Create Password",
@@ -1800,7 +1802,7 @@
         "email": "Email",
         "login-with": "Login with {{name}}",
         "or": "or",
-        "error": "Đăng nhập thất bại"
+        "error": "Login error"
     },
     "position": {
         "top": "Top",
@@ -1891,7 +1893,7 @@
         "select-rulechain": "Select rule chain",
         "no-rulechains-matching": "No rule chains matching '{{entity}}' were found.",
         "rulechain-required": "Rule chain is required",
-        "management": "Quản lý quy tắc",
+        "management": "Rules management",
         "debug-mode": "Debug mode",
         "search": "Search rule chains",
         "selected-rulechains": "{ count, plural, 1 {1 rule chain} other {# rule chains} } selected",
@@ -2258,6 +2260,12 @@
         "set-entity-from-widget": "Set entity from widget",
         "target-dashboard": "Target dashboard",
         "open-right-layout": "Open right dashboard layout (mobile view)",
+        "open-in-separate-dialog": "Open in separate dialog",
+        "dialog-title": "Dialog title",
+        "dialog-hide-dashboard-toolbar": "Hide dashboard toolbar in dialog",
+        "dialog-width": "Dialog width in percents relative to viewport width",
+        "dialog-height": "Dialog height in percents relative to viewport height",
+        "dialog-size-range-error": "Dialog size percent value should be in a range from 1 to 100.",
         "open-new-browser-tab": "Open in a new browser tab"
     },
     "widgets-bundle": {
@@ -2480,6 +2488,7 @@
         "language": "Language",
         "locales": {
             "de_DE": "Deutsch",
+            "vi_VN":"Tiếng Việt",
             "fr_FR": "Français",
             "zh_CN": "简体中文",
             "zh_TW": "繁體中文",
